@@ -43,6 +43,7 @@ button.addEventListener('click', () => {
     .catch(() => {
         emptyStack();
         deck = deck.then((res) => shuffle(res));
-        deck.then(() => drawCard().then((res) => createCard(res)));
+        deck.then(() => drawCard())
+            .then((res) => createCard(res));
     })
 })
