@@ -1,0 +1,10 @@
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+#facts {
+    margin: 5rem auto;
+    height: 50%;
+    width: 34%;
+}
